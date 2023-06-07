@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".presentation.ui.CashFragment"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <GridLayout
+        android:id="@+id/gl_cards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_marginTop="40dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="260dp"
+            android:layout_height="120dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/card_gradient"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_balance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BALANCE: 7848484"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/roboto_light"
+                    android:textColor="@color/medium_grey" />
+
+                <TextView
+                    android:id="@+id/tv_card_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5288 7456 8888 9367"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEBIT CARD"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/medium_grey"
+                    android:layout_marginStart="16dp"
+                    android:fontFamily="@font/roboto_light"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp">
+
+            <LinearLayout
+                android:id="@+id/btn_copy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_exit"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_transfer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="   COPY\nNUMBER"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/roboto_light"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="75dp"
+        android:background="@drawable/button_exit"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Траты за месяц"
+            android:textColor="@color/light_grey"
+            android:layout_marginStart="12dp"
+            android:textSize="16dp"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5000"
+            android:textColor="@color/grey"
+            android:textSize="14dp"
+            android:layout_marginStart="12dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/cashback"
+        android:layout_width="380dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/shape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recycler">
+
+        <TextView
+            android:id="@+id/tv_cashback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Ваш текст здесь"
+            android:textColor="@color/grey"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/tv_month_cash"
+        android:layout_width="380dp"
+        android:layout_height="75dp"
+        android:background="@drawable/button_exit"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Месячные переводы"
+            android:textColor="@color/light_grey"
+            android:textSize="16dp"
+            android:fontFamily="@font/roboto_medium"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="75dp"
+        android:background="@drawable/button_exit"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Траты за месяц"
+            android:textColor="@color/light_grey"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="100dp"
+            android:layout_height="112dp"
+            android:layout_marginStart="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/black">
+
+            <LinearLayout
+                android:id="@+id/btn_pay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rectrangle_1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/wallet_2"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PAY"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/roboto_light"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="100dp"
+            android:layout_height="112dp"
+            android:layout_marginStart="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="8dp"
+            app:cardBackgroundColor="@color/black">
+
+            <LinearLayout
+                android:id="@+id/btn_transfer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rectrangle_1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/transfer"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TRANSFER"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/roboto_light"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

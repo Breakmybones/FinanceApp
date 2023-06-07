@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.finance.presentation.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.finance.presentation.ui.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.finance.presentation.ui.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/cashFragment"
+        android:name="com.example.finance.presentation.ui.CashFragment"
+        android:label="fragment_cash"
+        tools:layout="@layout/fragment_cash" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.finance.presentation.ui.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/transfersFragment"
+        android:name="com.example.finance.presentation.ui.TransfersFragment"
+        android:label="fragment_transfers"
+        tools:layout="@layout/fragment_transfers" />
+</navigation>

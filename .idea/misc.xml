@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/drawable/background.xml" value="0.1" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/drawable/btn_background.xml" value="0.1" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/drawable/card_gradient.xml" value="0.1" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/drawable/card_shape.xml" value="0.1" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/drawable/circle_shape.xml" value="0.1" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/drawable/et_background.xml" value="0.1" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/drawable/gradient_background.xml" value="0.1" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1415" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/drawable/rectrangle.xml" value="0.1" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/drawable/rectrangle_1.xml" value="0.144" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/drawable/second_card_gradient.xml" value="0.1" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/drawable/shape.xml" value="0.1" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/drawable/vector.xml" value="0.1" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/drawable/vector_fill.xml" value="0.221" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/drawable/vector_stro.xml" value="0.1" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/font/roboto_thin.xml" value="0.30520833333333336" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/layout/fragment_cash.xml" value="0.264" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/layout/fragment_home.xml" value="0.176" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/layout/fragment_info.xml" value="0.72" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/layout/fragment_login.xml" value="0.264" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/layout/fragment_register.xml" value="0.2" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/layout/fragment_transfers.xml" value="0.264" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/layout/item_transfer.xml" value="0.264" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/layout/people_item.xml" value="0.4" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/layout/rectrangle_.xml" value="0.1802536231884058" />
+        <entry key="..\:/Users/Dinara/AndroidStudioProjects/Finance/app/src/main/res/menu/bottom_nav.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
